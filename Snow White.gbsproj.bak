@@ -3063,7 +3063,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Benjamin Pie -\n  3 cheeses \n  2 chickens"
+                                    "Benjamin Pie -\n  3 cheeses \n  2 chickens ..."
                                 ],
                                 "avatarId": "0725ce27-98ca-4ccd-b6f0-3dc32def80a2"
                             }
