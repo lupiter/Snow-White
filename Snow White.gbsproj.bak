@@ -4472,8 +4472,8 @@
                 15,
                 15,
                 15,
-                15,
-                15,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -4574,6 +4574,32 @@
                     "y": 25,
                     "width": 1,
                     "height": 1
+                },
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "73a26d74-f7f9-4771-9151-86d4a2e8eddb",
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "e58fe1b0-c983-41a9-be31-826c178f0e21",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            }
+                        },
+                        {
+                            "id": "0cb3e6c8-b9af-4422-8d61-4ef5a0a2e53f",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "id": "7c2baac1-e796-481f-8efd-121501962a69",
+                    "x": 9,
+                    "y": 31,
+                    "width": 2,
+                    "height": 1
                 }
             ]
         },
@@ -4619,6 +4645,23 @@
             "id": "01f266c2-bad1-4151-92b4-069416565327",
             "x": 348.18168397735644,
             "y": 450.39654545180656,
+            "actors": [],
+            "triggers": []
+        },
+        {
+            "name": "Abby Entrance",
+            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "e58fe1b0-c983-41a9-be31-826c178f0e21",
+            "x": 743.905083420609,
+            "y": 768.1246690711814,
             "actors": [],
             "triggers": []
         }
@@ -5452,9 +5495,9 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 617,
-        "worldScrollY": 651,
-        "zoom": 243.6044978275895,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
