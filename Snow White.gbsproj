@@ -6245,6 +6245,14 @@
                     "args": {}
                 },
                 {
+                    "id": "895dabba-e309-4066-8333-9815d002b1a8",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "65e14f70-4c2c-4f04-904b-cc08a30905c2",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "f31b4e3d-e2a1-43d6-94f9-f6e2832c26a6",
                     "command": "EVENT_IF_TRUE",
                     "args": {
@@ -7458,6 +7466,14 @@
                     "id": "0d027600-6bf1-4cf7-9131-b3e55fd1757f",
                     "command": "EVENT_MUSIC_STOP",
                     "args": {}
+                },
+                {
+                    "id": "6b9a13d2-081a-494b-8c0f-6826dc1e4d66",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "8c67ebfe-5c97-40da-9892-0f623c82c53f",
+                        "loop": true
+                    }
                 },
                 {
                     "id": "786a2380-9603-43ba-b546-f70c814ae8d7",
@@ -9183,6 +9199,19 @@
                     "args": {
                         "spriteSheetId": "07b6c516-4fb7-4e98-8a55-25d7ad9637bc",
                         "persist": false
+                    }
+                },
+                {
+                    "id": "d7231456-a330-4290-9381-5150e0023ddc",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {}
+                },
+                {
+                    "id": "3d2ebffe-0ab9-46a3-a773-beba4c36207f",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "8c67ebfe-5c97-40da-9892-0f623c82c53f",
+                        "loop": true
                     }
                 },
                 {
@@ -16910,6 +16939,19 @@
                     }
                 },
                 {
+                    "id": "cb73f2fa-164d-4ef7-984e-c8b25140320d",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {}
+                },
+                {
+                    "id": "d45a08dd-e1eb-49b3-83ed-e24571369994",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "8c67ebfe-5c97-40da-9892-0f623c82c53f",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "fb4b5ef0-d9e4-467b-ac25-75a9a66b5a3b",
                     "command": "EVENT_END"
                 }
@@ -19591,6 +19633,22 @@
     ],
     "music": [
         {
+            "id": "65e14f70-4c2c-4f04-904b-cc08a30905c2",
+            "name": "abby",
+            "filename": "abby.mod",
+            "settings": {},
+            "inode": "15186665",
+            "_v": 1632635289082
+        },
+        {
+            "id": "8c67ebfe-5c97-40da-9892-0f623c82c53f",
+            "name": "puzzle",
+            "filename": "puzzle.mod",
+            "settings": {},
+            "inode": "15580623",
+            "_v": 1632638591666
+        },
+        {
             "id": "4cce2b97-92e9-486c-ba95-3b5c58e87ddb",
             "name": "snow_happy",
             "filename": "snow_happy.mod",
@@ -19811,7 +19869,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 541,
+        "worldScrollX": 784,
         "worldScrollY": 911,
         "zoom": 147.02597884833813,
         "customColorsEnabled": false,
