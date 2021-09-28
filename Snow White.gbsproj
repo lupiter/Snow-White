@@ -812,14 +812,33 @@
                     }
                 },
                 {
-                    "id": "43dfe9f8-2252-463a-b334-4544bfe91ac1",
-                    "command": "EVENT_SWITCH_SCENE",
+                    "id": "d7a98eae-d13b-4c5b-ae42-a84720b29b17",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
-                        "sceneId": "10b7c31b-c147-4530-bebd-26d55e0f8fa0",
-                        "x": 5,
-                        "y": 3,
-                        "direction": "down",
-                        "fadeSpeed": "2"
+                        "input": [
+                            "a"
+                        ],
+                        "persist": false,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "id": "43dfe9f8-2252-463a-b334-4544bfe91ac1",
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "10b7c31b-c147-4530-bebd-26d55e0f8fa0",
+                                    "x": 5,
+                                    "y": 3,
+                                    "direction": "down",
+                                    "fadeSpeed": "2"
+                                }
+                            },
+                            {
+                                "id": "5d15564f-7b64-43da-a623-ac3c6ea24187",
+                                "command": "EVENT_END"
+                            }
+                        ]
                     }
                 },
                 {
@@ -2639,7 +2658,7 @@
                                         "args": {
                                             "text": [
                                                 "...I feel like\nthere is something\nI'm supposed to do",
-                                                "before going out?"
+                                                "before going out."
                                             ],
                                             "avatarId": ""
                                         }
@@ -5090,7 +5109,7 @@
                     ],
                     "id": "13f201f6-a005-4490-9c75-ec60b455c0b6",
                     "x": 18,
-                    "y": 25,
+                    "y": 27,
                     "width": 1,
                     "height": 1
                 },
@@ -6256,17 +6275,6 @@
                                             },
                                             "children": {
                                                 "true": [
-                                                    {
-                                                        "id": "c666a2ff-a7f4-4d29-a23c-49e6d7d2f408",
-                                                        "command": "EVENT_SWITCH_SCENE",
-                                                        "args": {
-                                                            "sceneId": "77f2d13d-3965-4c85-8cbc-846756fdc7f1",
-                                                            "x": 0,
-                                                            "y": 0,
-                                                            "direction": "",
-                                                            "fadeSpeed": "2"
-                                                        }
-                                                    },
                                                     {
                                                         "id": "a0255338-5a79-4134-b750-65e88748dacf",
                                                         "command": "EVENT_SET_TRUE",
@@ -20141,8 +20149,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollX": 720,
+        "worldScrollY": 851,
         "zoom": 147.02597884833813,
         "customColorsEnabled": true,
         "customHead": "",
