@@ -5042,6 +5042,16 @@
                     }
                 },
                 {
+                    "id": "0cf062ad-e1fc-4cdb-81a2-8a7a84327c72",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Phew! I think I\ngot away."
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
                     "id": "86649184-2c7e-4e01-a24c-dd17ed1f0be6",
                     "command": "EVENT_END"
                 }
@@ -20116,8 +20126,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 339,
-        "worldScrollY": 415,
+        "worldScrollX": 675,
+        "worldScrollY": 372,
         "zoom": 147.02597884833813,
         "customColorsEnabled": true,
         "customHead": "",
