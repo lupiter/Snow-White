@@ -1,5 +1,5 @@
 {
-    "name": "Snow White",
+    "name": "LIttle Snow",
     "author": "Sir Cathy Wise",
     "_version": "2.0.0",
     "_release": "6",
@@ -20141,7 +20141,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 678,
+        "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 147.02597884833813,
         "customColorsEnabled": true,

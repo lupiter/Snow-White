@@ -1208,7 +1208,7 @@
                     "id": "17c3d087-eafa-46cb-9d14-c1ba3a3f40b4",
                     "command": "EVENT_IF_TRUE",
                     "args": {
-                        "variable": "4",
+                        "variable": "L0",
                         "__collapseElse": false
                     },
                     "children": {
@@ -1230,6 +1230,13 @@
                                 "args": {
                                     "musicId": "4cce2b97-92e9-486c-ba95-3b5c58e87ddb",
                                     "loop": true
+                                }
+                            },
+                            {
+                                "id": "f6f44fd1-8b20-4cbf-bf26-3030f5865719",
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "L0"
                                 }
                             },
                             {
@@ -17643,7 +17650,7 @@
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "02cf11c8-a65f-4351-a47b-0890f6162a9d",
-                        "loop": false
+                        "loop": true
                     }
                 },
                 {
@@ -17951,8 +17958,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Hand.png",
-            "inode": "13991544",
-            "_v": 1632811861068
+            "inode": "15666697",
+            "_v": 1632813919162
         },
         {
             "id": "ace2242d-26a3-4496-af9e-56b0eb46f11c",
@@ -20108,6 +20115,14 @@
         {
             "id": "43ba49a4-5eb7-4416-9a05-f797f53a8103__L1",
             "name": "Stay?"
+        },
+        {
+            "id": "18",
+            "name": "Keep Loaded first time"
+        },
+        {
+            "id": "10b7c31b-c147-4530-bebd-26d55e0f8fa0__L0",
+            "name": "Keep loaded"
         }
     ],
     "engineFieldValues": [
@@ -20126,8 +20141,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 675,
-        "worldScrollY": 372,
+        "worldScrollX": 678,
+        "worldScrollY": 0,
         "zoom": 147.02597884833813,
         "customColorsEnabled": true,
         "customHead": "",
