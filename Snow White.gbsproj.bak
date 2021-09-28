@@ -419,7 +419,10 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "tileColors": []
+            "tileColors": [],
+            "paletteIds": [
+                "865a3a8a-384f-4a58-920e-e01556f72ba0"
+            ]
         },
         {
             "id": "4912bee2-387a-472f-ae4f-6679b6149517",
@@ -827,7 +830,10 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "tileColors": []
+            "tileColors": [],
+            "paletteIds": [
+                "865a3a8a-384f-4a58-920e-e01556f72ba0"
+            ]
         },
         {
             "name": "Keep Middle",
@@ -1316,7 +1322,8 @@
                     "id": "b042da58-510e-4784-83b4-3a965122e409",
                     "x": 4,
                     "y": 8,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "865a3a8a-384f-4a58-920e-e01556f72ba0"
                 },
                 {
                     "name": "Queen",
@@ -1396,7 +1403,8 @@
                     "id": "ddd042c0-aa70-409e-b58a-4f18115a6966",
                     "x": 8,
                     "y": 9,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 },
                 {
                     "name": "Laundry Basket",
@@ -1560,7 +1568,8 @@
                     "id": "011fb2f0-6f78-4c6f-bf7b-191c1bc548ca",
                     "x": 15,
                     "y": 4,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "0bcab7d3-573f-4099-a099-6a54615469c4"
                 },
                 {
                     "name": "Mess",
@@ -1678,7 +1687,8 @@
                     "x": 8,
                     "y": 4,
                     "isPinned": false,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "0bcab7d3-573f-4099-a099-6a54615469c4"
                 }
             ],
             "triggers": [
@@ -1940,6 +1950,9 @@
                     "width": 2,
                     "height": 2
                 }
+            ],
+            "paletteIds": [
+                "6bfb01bb-028b-4b07-9bd2-7d99d72b03b4"
             ]
         },
         {
@@ -2449,7 +2462,8 @@
                     "id": "5a1247e2-758d-4c71-ac66-5c80696ea91a",
                     "x": 7,
                     "y": 5,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 }
             ],
             "triggers": [
@@ -2641,6 +2655,9 @@
                     "width": 3,
                     "height": 2
                 }
+            ],
+            "paletteIds": [
+                "6bfb01bb-028b-4b07-9bd2-7d99d72b03b4"
             ]
         },
         {
@@ -3077,7 +3094,8 @@
                     "id": "302a36c4-c873-4513-a738-f2f33f7dffaa",
                     "x": 5,
                     "y": 3,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 },
                 {
                     "name": "Ledger",
@@ -3122,7 +3140,8 @@
                     "id": "9500981b-cc27-4a7d-a797-08b68e973355",
                     "x": 5,
                     "y": 5,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "0bcab7d3-573f-4099-a099-6a54615469c4"
                 },
                 {
                     "name": "Queen",
@@ -3211,7 +3230,8 @@
                     "id": "648be6b5-cac9-408a-933c-f426790fcf8f",
                     "x": 13,
                     "y": 6,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 }
             ],
             "triggers": [
@@ -3344,6 +3364,9 @@
                     "width": 2,
                     "height": 2
                 }
+            ],
+            "paletteIds": [
+                "6bfb01bb-028b-4b07-9bd2-7d99d72b03b4"
             ]
         },
         {
@@ -3424,7 +3447,12 @@
             "y": 258.413524953361,
             "actors": [],
             "triggers": [],
-            "type": "4"
+            "type": "4",
+            "paletteIds": [
+                "dac834b5-eee0-4841-aea6-97c98c13f971",
+                null,
+                ""
+            ]
         },
         {
             "name": "Town",
@@ -3931,7 +3959,8 @@
                     "id": "e9b50741-4c70-44b5-ad9a-ca72d677bab9",
                     "x": 2,
                     "y": 1,
-                    "collisionGroup": "1"
+                    "collisionGroup": "1",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 }
             ],
             "triggers": [
@@ -3961,6 +3990,9 @@
                     "width": 2,
                     "height": 1
                 }
+            ],
+            "paletteIds": [
+                "5b39c675-3da0-4250-ab19-df9a746779f5"
             ]
         },
         {
@@ -5023,52 +5055,6 @@
             "actors": [],
             "triggers": [
                 {
-                    "name": "Maze Shake",
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "3c3207b0-12b5-440b-8e9a-25408e14e4d4",
-                            "command": "EVENT_CAMERA_SHAKE",
-                            "args": {
-                                "time": 0.5,
-                                "shakeDirection": "horizontal"
-                            }
-                        },
-                        {
-                            "id": "aed61daf-5d05-4217-829a-7f292b0b30ce",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "id": "1f1c27f2-cd24-4206-ad18-d7a150272f06",
-                    "x": 17,
-                    "y": 17,
-                    "width": 1,
-                    "height": 1
-                },
-                {
-                    "name": "Maze Scary",
-                    "trigger": "walk",
-                    "script": [
-                        {
-                            "id": "3b7a3134-4108-4d1b-bd72-4e9a90c75d57",
-                            "command": "EVENT_ACTOR_EMOTE",
-                            "args": {
-                                "actorId": "$self$",
-                                "emoteId": "0"
-                            }
-                        },
-                        {
-                            "id": "3c7295c2-8d46-4832-892e-6cb01d477d81",
-                            "command": "EVENT_END"
-                        }
-                    ],
-                    "id": "6dd98451-3c6d-416d-bd33-68da212bdf04",
-                    "x": 13,
-                    "y": 3,
-                    "width": 1,
-                    "height": 1
-                },
-                {
                     "name": "Maze Scary 2",
                     "trigger": "walk",
                     "script": [
@@ -5117,6 +5103,9 @@
                     "width": 2,
                     "height": 1
                 }
+            ],
+            "paletteIds": [
+                "5b39c675-3da0-4250-ab19-df9a746779f5"
             ]
         },
         {
@@ -5169,7 +5158,10 @@
             "x": 348.18168397735644,
             "y": 450.39654545180656,
             "actors": [],
-            "triggers": []
+            "triggers": [],
+            "paletteIds": [
+                "6bfb01bb-028b-4b07-9bd2-7d99d72b03b4"
+            ]
         },
         {
             "name": "Abby",
@@ -6708,7 +6700,8 @@
                     "id": "43ba49a4-5eb7-4416-9a05-f797f53a8103",
                     "x": 12,
                     "y": 10,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 },
                 {
                     "name": "Sister Basil",
@@ -6832,7 +6825,8 @@
                     "id": "b392a5f4-d101-4512-83c8-1d228be07cbf",
                     "x": 24,
                     "y": 13,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 },
                 {
                     "name": "Sister Rue",
@@ -7143,10 +7137,14 @@
                     "id": "66a938ea-46e6-4c74-bbdc-01cd139b2b3c",
                     "x": 15,
                     "y": 22,
-                    "collisionGroup": ""
+                    "collisionGroup": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971"
                 }
             ],
-            "triggers": []
+            "triggers": [],
+            "paletteIds": [
+                "ac13ee09-0601-4abe-887e-faeef60345d5"
+            ]
         },
         {
             "name": "Madonna Puzzle",
@@ -7154,7 +7152,9 @@
             "width": 20,
             "height": 18,
             "type": "4",
-            "paletteIds": [],
+            "paletteIds": [
+                "dac834b5-eee0-4841-aea6-97c98c13f971"
+            ],
             "collisions": [
                 0,
                 0,
@@ -7561,7 +7561,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -7631,7 +7631,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -7701,7 +7701,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -7771,7 +7771,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -7841,7 +7841,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -7911,7 +7911,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -7981,7 +7981,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -8051,7 +8051,7 @@
                     "direction": "down",
                     "moveSpeed": 3,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "1",
                     "script": [
@@ -8121,7 +8121,7 @@
                     "direction": "down",
                     "moveSpeed": 4,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "2",
                     "script": [],
@@ -8359,7 +8359,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -8368,7 +8368,8 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Rearrange the\ntiles to fix the\npicture."
+                                    "Rearrange the\ntiles to fix the\npicture.",
+                                    "Select a tile to\nmove it to the\nempty space."
                                 ],
                                 "avatarId": ""
                             }
@@ -8419,7 +8420,9 @@
             "width": 20,
             "height": 18,
             "type": "4",
-            "paletteIds": [],
+            "paletteIds": [
+                "dac834b5-eee0-4841-aea6-97c98c13f971"
+            ],
             "collisions": [
                 0,
                 0,
@@ -8900,7 +8903,9 @@
             "width": 20,
             "height": 18,
             "type": "4",
-            "paletteIds": [],
+            "paletteIds": [
+                "7f5d7fc0-748e-419b-a223-fe3566d7aba0"
+            ],
             "collisions": [
                 0,
                 0,
@@ -10191,7 +10196,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "0bcab7d3-573f-4099-a099-6a54615469c4",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -12219,7 +12224,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "0bcab7d3-573f-4099-a099-6a54615469c4",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -14249,7 +14254,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "0bcab7d3-573f-4099-a099-6a54615469c4",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -16370,7 +16375,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -16404,7 +16409,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -16445,7 +16450,9 @@
             "width": 32,
             "height": 18,
             "type": "4",
-            "paletteIds": [],
+            "paletteIds": [
+                "dac834b5-eee0-4841-aea6-97c98c13f971"
+            ],
             "collisions": [
                 0,
                 0,
@@ -17068,7 +17075,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -17102,7 +17109,7 @@
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 3,
-                    "paletteId": "",
+                    "paletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
@@ -17247,7 +17254,9 @@
             "width": 20,
             "height": 18,
             "type": "0",
-            "paletteIds": [],
+            "paletteIds": [
+                "dac834b5-eee0-4841-aea6-97c98c13f971"
+            ],
             "collisions": [
                 0,
                 0,
@@ -17688,7 +17697,7 @@
             "imageHeight": 256,
             "filename": "Abby.png",
             "inode": "13578571",
-            "_v": 1632396715123
+            "_v": 1632811861068
         },
         {
             "id": "962da8cd-786a-4dee-b69a-1d6902a5d1a4",
@@ -17699,7 +17708,7 @@
             "imageHeight": 144,
             "filename": "Cups.png",
             "inode": "14482155",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "3c536f90-9f56-4cb1-8495-689548be405f",
@@ -17710,7 +17719,7 @@
             "imageHeight": 144,
             "filename": "Death.png",
             "inode": "13330905",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "eb9e05f2-0d3c-45e0-a701-11b6c3074ce1",
@@ -17721,7 +17730,7 @@
             "imageHeight": 144,
             "filename": "Last Supper 2.png",
             "inode": "14494325",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "dc84b1d5-fb79-44fb-915e-06a906fbd1e9",
@@ -17732,7 +17741,7 @@
             "imageHeight": 144,
             "filename": "Last Supper.png",
             "inode": "14482425",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ac64bd63-23c1-49ea-b6d9-7d9a6ab5bebe",
@@ -17743,7 +17752,7 @@
             "imageHeight": 144,
             "filename": "Madonna BG Empty.png",
             "inode": "13985478",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "7c290803-a2c2-4fcb-90b0-ff113e5fbed1",
@@ -17754,7 +17763,7 @@
             "imageHeight": 144,
             "filename": "Madonna BG blank.png",
             "inode": "14482144",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "75e80d5c-048b-4d79-a6df-9ee3aafd3e27",
@@ -17765,7 +17774,7 @@
             "imageHeight": 144,
             "filename": "Madonna BG finished.png",
             "inode": "14490303",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "62e6d69f-40ed-42fc-85bc-a42aa3f5921a",
@@ -17776,7 +17785,7 @@
             "imageHeight": 144,
             "filename": "Madonna BG.png",
             "inode": "13980552",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "cb49898e-6a73-43a5-ac7b-39b196b9f68c",
@@ -17787,7 +17796,7 @@
             "imageHeight": 144,
             "filename": "Win.png",
             "inode": "14613333",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
@@ -17798,7 +17807,7 @@
             "imageHeight": 144,
             "filename": "black.png",
             "inode": "12317763",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "35475307-7170-4580-aa58-52cb986b3188",
@@ -17809,7 +17818,7 @@
             "imageHeight": 144,
             "filename": "bridge.png",
             "inode": "13330895",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "9e4a23d6-7dca-4c35-b2b1-726b66cc79af",
@@ -17820,7 +17829,7 @@
             "imageHeight": 144,
             "filename": "keep top.png",
             "inode": "12512188",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "5bc3c743-b246-4115-a392-4fc9e516b84b",
@@ -17831,7 +17840,7 @@
             "imageHeight": 144,
             "filename": "keep.png",
             "inode": "12525521",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ddbc6c5b-db53-482a-a414-3438b9d1ff9e",
@@ -17842,7 +17851,7 @@
             "imageHeight": 144,
             "filename": "kitchen.png",
             "inode": "12525530",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "2eec4135-3629-4228-b487-85faeaf4d932",
@@ -17853,7 +17862,7 @@
             "imageHeight": 144,
             "filename": "logo.png",
             "inode": "12423106",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "89a47cb8-3cf2-41d0-a516-d7c32a6f23c1",
@@ -17864,7 +17873,7 @@
             "imageHeight": 256,
             "filename": "maze.png",
             "inode": "13193756",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "424528c4-bc2c-473e-a15d-96dcc56c2d10",
@@ -17875,7 +17884,7 @@
             "imageHeight": 144,
             "filename": "mirror 2.png",
             "inode": "12512176",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "bae9021b-edb0-460f-9925-11b4f9babee2",
@@ -17886,7 +17895,7 @@
             "imageHeight": 144,
             "filename": "titlescreen.png",
             "inode": "12423107",
-            "_v": 1632396715124
+            "_v": 1632811861068
         }
     ],
     "spriteSheets": [
@@ -17897,7 +17906,7 @@
             "type": "animated",
             "filename": "Cups pan.png",
             "inode": "14491787",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "61f91a9b-28ab-470b-93bd-6f0525d037ff",
@@ -17906,7 +17915,7 @@
             "type": "animated",
             "filename": "Cups pot.png",
             "inode": "14491788",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ca08a1ed-c1c0-4917-a30a-c5af4494c86e",
@@ -17915,7 +17924,7 @@
             "type": "animated",
             "filename": "Cups sauce.png",
             "inode": "14491789",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ca0687cc-7ea6-433c-8088-28764d048986",
@@ -17924,7 +17933,7 @@
             "type": "static",
             "filename": "Exit.png",
             "inode": "14562726",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "07b6c516-4fb7-4e98-8a55-25d7ad9637bc",
@@ -17933,7 +17942,7 @@
             "type": "static",
             "filename": "Hand.png",
             "inode": "13991544",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ace2242d-26a3-4496-af9e-56b0eb46f11c",
@@ -17942,7 +17951,7 @@
             "type": "animated",
             "filename": "Heart 2.png",
             "inode": "13894599",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "09883940-41e2-4e94-8227-9b39e2084257",
@@ -17951,7 +17960,7 @@
             "type": "static",
             "filename": "Help.png",
             "inode": "14562725",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "fe20f200-2454-411a-bbfa-b1884ccc79d5",
@@ -17960,7 +17969,7 @@
             "type": "static",
             "filename": "Info 2.png",
             "inode": "14562727",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "72ae7f5c-e174-4793-86aa-d5db9f120d22",
@@ -17969,7 +17978,7 @@
             "type": "static",
             "filename": "Info.png",
             "inode": "14562728",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "c195f38f-6dfa-469a-afd6-e9fb6a42b6f6",
@@ -17978,7 +17987,7 @@
             "type": "static",
             "filename": "Madonna 1.png",
             "inode": "13981003",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ed8a32ce-d557-4bb3-8952-0a967bf0b472",
@@ -17987,7 +17996,7 @@
             "type": "static",
             "filename": "Madonna 2.png",
             "inode": "13981072",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "1f909c47-2000-4212-b6cb-bbb2200a658d",
@@ -17996,7 +18005,7 @@
             "type": "static",
             "filename": "Madonna 3.png",
             "inode": "13981098",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "01aef3e8-820e-4668-9742-c10f58894caa",
@@ -18005,7 +18014,7 @@
             "type": "static",
             "filename": "Madonna 4.png",
             "inode": "13980974",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "d32758a9-1349-4b3e-9193-793211dbdcc9",
@@ -18014,7 +18023,7 @@
             "type": "static",
             "filename": "Madonna 5.png",
             "inode": "13981138",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "5857abfa-0db9-4401-b51e-122f51feab12",
@@ -18023,7 +18032,7 @@
             "type": "static",
             "filename": "Madonna 6.png",
             "inode": "13981187",
-            "_v": 1632396715125
+            "_v": 1632811861068
         },
         {
             "id": "bdb90fb4-07f9-4bc6-90ed-e6c965eb5bca",
@@ -18032,7 +18041,7 @@
             "type": "static",
             "filename": "Madonna 7.png",
             "inode": "13981224",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "06c1fea1-6763-4e18-8676-56208e89dc24",
@@ -18041,7 +18050,7 @@
             "type": "static",
             "filename": "Madonna 8.png",
             "inode": "13981255",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "b2e62ed7-0b41-4102-88a5-897f6f6ef7e7",
@@ -18050,7 +18059,7 @@
             "type": "static",
             "filename": "Madonna 9.png",
             "inode": "13981284",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "45b3f8d4-475b-44f4-8777-84deef53cd28",
@@ -18059,7 +18068,7 @@
             "type": "static",
             "filename": "basket.png",
             "inode": "12511754",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "0725ce27-98ca-4ccd-b6f0-3dc32def80a2",
@@ -18068,7 +18077,7 @@
             "type": "static",
             "filename": "book.png",
             "inode": "12512212",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "a6d2fa45-ecf6-40bd-bf39-f0cc64c71b07",
@@ -18077,7 +18086,7 @@
             "type": "actor",
             "filename": "cook.png",
             "inode": "12423085",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "b1c8d210-a468-4e8d-8d0e-5731be46ac65",
@@ -18086,7 +18095,7 @@
             "type": "animated",
             "filename": "cups count 2.png",
             "inode": "14491782",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "a8488dbe-9268-4a3a-b1d3-0877cbac135c",
@@ -18095,7 +18104,7 @@
             "type": "animated",
             "filename": "cups count.png",
             "inode": "14490410",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "0dbf95b4-4e8d-4269-89eb-19ac161f3f3f",
@@ -18104,7 +18113,7 @@
             "type": "actor",
             "filename": "huntsman.png",
             "inode": "13990874",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "5d28c64e-3019-4234-900f-b89292fe6538",
@@ -18113,7 +18122,7 @@
             "type": "actor",
             "filename": "king.png",
             "inode": "12423084",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "06e95917-fd11-4acb-b189-744aaaa20a5b",
@@ -18122,7 +18131,7 @@
             "type": "animated",
             "filename": "mirror.png",
             "inode": "12511781",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ae0ee35b-3e8d-4aab-9f1b-fd51c90a2d6b",
@@ -18131,7 +18140,7 @@
             "type": "static",
             "filename": "nun abbess copy.png",
             "inode": "15583305",
-            "_v": 1632639791092
+            "_v": 1632811861068
         },
         {
             "id": "a1540514-dac4-436a-9114-0ae6a5d0dc94",
@@ -18140,7 +18149,7 @@
             "type": "actor",
             "filename": "nun abbess.png",
             "inode": "13578586",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "70dad9a4-2cbf-44b5-8652-d0b016c72a52",
@@ -18149,7 +18158,7 @@
             "type": "static",
             "filename": "nun short copy.png",
             "inode": "15583338",
-            "_v": 1632639808517
+            "_v": 1632811861068
         },
         {
             "id": "7c32b652-e9fa-46b3-83a6-29a322849138",
@@ -18158,7 +18167,7 @@
             "type": "actor",
             "filename": "nun short.png",
             "inode": "13578587",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "ce1fcaf4-5909-4928-9d99-e8b4c04e06f8",
@@ -18167,7 +18176,7 @@
             "type": "static",
             "filename": "nun tall copy.png",
             "inode": "15583362",
-            "_v": 1632639825622
+            "_v": 1632811861068
         },
         {
             "id": "5ce3f66f-167a-4974-8cca-e6e48328c239",
@@ -18176,7 +18185,7 @@
             "type": "actor",
             "filename": "nun tall.png",
             "inode": "13578588",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "50e62886-35c6-4cb9-aed0-fd361a87a99e",
@@ -18185,7 +18194,7 @@
             "type": "actor",
             "filename": "queen.png",
             "inode": "12525472",
-            "_v": 1632396715124
+            "_v": 1632811861068
         },
         {
             "id": "3eb508f0-7057-452f-b38f-eee0ed9ac1cf",
@@ -18194,7 +18203,7 @@
             "type": "static",
             "filename": "scroll.png",
             "inode": "12511846",
-            "_v": 1632396715125
+            "_v": 1632811861068
         },
         {
             "id": "5cb20da6-da3f-4694-adf3-ed153ee7dfd6",
@@ -18203,7 +18212,7 @@
             "type": "static",
             "filename": "shirt.png",
             "inode": "12511869",
-            "_v": 1632396715125
+            "_v": 1632811861068
         },
         {
             "id": "5df7ea62-faa0-4c54-a796-d30452ad4f91",
@@ -18212,7 +18221,7 @@
             "type": "actor_animated",
             "filename": "snow.png",
             "inode": "12356622",
-            "_v": 1632396715125
+            "_v": 1632811861068
         },
         {
             "id": "7b462677-d531-4430-a338-d8cf2851a3d9",
@@ -18221,7 +18230,7 @@
             "type": "actor_animated",
             "filename": "snow2.png",
             "inode": "12423066",
-            "_v": 1632396715125
+            "_v": 1632811861068
         }
     ],
     "palettes": [
@@ -18489,6 +18498,76 @@
                 "F88000",
                 "F8D000",
                 "F82800"
+            ]
+        },
+        {
+            "id": "6bfb01bb-028b-4b07-9bd2-7d99d72b03b4",
+            "name": "Stone",
+            "colors": [
+                "F0E8F8",
+                "C0B8D8",
+                "586098",
+                "202850"
+            ]
+        },
+        {
+            "id": "865a3a8a-384f-4a58-920e-e01556f72ba0",
+            "name": "Snow",
+            "colors": [
+                "E0E8F8",
+                "80A8F8",
+                "283098",
+                "382050"
+            ]
+        },
+        {
+            "id": "5b39c675-3da0-4250-ab19-df9a746779f5",
+            "name": "Forrest",
+            "colors": [
+                "E0F8E0",
+                "C0F840",
+                "307078",
+                "204850"
+            ]
+        },
+        {
+            "id": "dac834b5-eee0-4841-aea6-97c98c13f971",
+            "name": "Portrait",
+            "colors": [
+                "F0E8B8",
+                "D0B048",
+                "786010",
+                "000000"
+            ]
+        },
+        {
+            "id": "ac13ee09-0601-4abe-887e-faeef60345d5",
+            "name": "Nice Stone",
+            "colors": [
+                "F8E0E0",
+                "90D898",
+                "986890",
+                "502048"
+            ]
+        },
+        {
+            "id": "7f5d7fc0-748e-419b-a223-fe3566d7aba0",
+            "name": "Kitchen",
+            "colors": [
+                "F8F8F8",
+                "D0B8F0",
+                "887898",
+                "502038"
+            ]
+        },
+        {
+            "id": "0bcab7d3-573f-4099-a099-6a54615469c4",
+            "name": "Supper",
+            "colors": [
+                "F0E8B8",
+                "D0B048",
+                "707018",
+                "202850"
             ]
         }
     ],
@@ -19798,7 +19877,7 @@
             "filename": "abby.mod",
             "settings": {},
             "inode": "15186665",
-            "_v": 1632635289082
+            "_v": 1632811861062
         },
         {
             "id": "8c67ebfe-5c97-40da-9892-0f623c82c53f",
@@ -19806,7 +19885,7 @@
             "filename": "puzzle.mod",
             "settings": {},
             "inode": "15580623",
-            "_v": 1632638591666
+            "_v": 1632811861062
         },
         {
             "id": "4cce2b97-92e9-486c-ba95-3b5c58e87ddb",
@@ -19814,7 +19893,7 @@
             "filename": "snow_happy.mod",
             "settings": {},
             "inode": "13805916",
-            "_v": 1632614505709
+            "_v": 1632811861062
         },
         {
             "id": "fd6ec89e-4e20-486d-ad69-ff78ff80d6bb",
@@ -19822,7 +19901,7 @@
             "filename": "snow_intro.mod",
             "settings": {},
             "inode": "12579380",
-            "_v": 1632614663673
+            "_v": 1632811861062
         },
         {
             "id": "02cf11c8-a65f-4351-a47b-0890f6162a9d",
@@ -19830,7 +19909,7 @@
             "filename": "snow_intro_slow.mod",
             "settings": {},
             "inode": "12580022",
-            "_v": 1632614660729
+            "_v": 1632811861062
         },
         {
             "id": "b831d2fa-7708-4bac-aa5c-b62850424601",
@@ -19838,7 +19917,7 @@
             "filename": "snow_intro_slow_windy.mod",
             "settings": {},
             "inode": "12580453",
-            "_v": 1632614655385
+            "_v": 1632811861062
         },
         {
             "id": "7c886d8a-a4d2-4b66-a53f-bc65593ffe3a",
@@ -19848,7 +19927,7 @@
                 "disableSpeedConversion": false
             },
             "inode": "12584908",
-            "_v": 1632614614927
+            "_v": 1632811861062
         },
         {
             "id": "01e7b554-5ad6-4f75-b6d9-b78204e28802",
@@ -19856,7 +19935,7 @@
             "filename": "snow_moody_short.mod",
             "settings": {},
             "inode": "12583647",
-            "_v": 1632614620699
+            "_v": 1632811861062
         },
         {
             "id": "fbbab54e-016e-4ace-8263-99710bae6f48",
@@ -19864,7 +19943,7 @@
             "filename": "snow_scary.mod",
             "settings": {},
             "inode": "13868802",
-            "_v": 1632614490649
+            "_v": 1632811861062
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -19872,7 +19951,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "12317822",
-            "_v": 1632396715114
+            "_v": 1632811861062
         }
     ],
     "variables": [
@@ -19945,6 +20024,10 @@
             "name": "Cups Puzzle Solved"
         },
         {
+            "id": "17",
+            "name": "All Puzzles Solved"
+        },
+        {
             "id": "871ea302-1cc1-463c-b9d7-530aac38fe81__L0",
             "name": "Spoken to gardener"
         },
@@ -20013,10 +20096,6 @@
             "name": "Total"
         },
         {
-            "id": "17",
-            "name": "All Puzzles Solved"
-        },
-        {
             "id": "43ba49a4-5eb7-4416-9a05-f797f53a8103__L1",
             "name": "Stay?"
         }
@@ -20037,8 +20116,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 478,
-        "worldScrollY": 387,
+        "worldScrollX": 339,
+        "worldScrollY": 415,
         "zoom": 147.02597884833813,
         "customColorsEnabled": true,
         "customHead": "",
@@ -20050,12 +20129,12 @@
             "default-bg-5",
             "default-bg-6"
         ],
-        "defaultSpritePaletteId": "default-sprite",
-        "defaultUIPaletteId": "default-ui",
-        "playerPaletteId": "",
+        "defaultSpritePaletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
+        "defaultUIPaletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
+        "playerPaletteId": "dac834b5-eee0-4841-aea6-97c98c13f971",
         "navigatorSplitSizes": [
-            752,
-            202,
+            754,
+            200,
             30
         ],
         "showNavigator": true,
